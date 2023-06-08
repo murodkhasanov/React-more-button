@@ -1,0 +1,51 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Arial';
+}
+.App {
+  background-color: cadetblue;
+  width: 900px;
+  height: 12400px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  border-radius: 7px;
+}
+.dic {
+  background-color: rgb(14, 28, 221);
+  width: 500px;
+  height: 38px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px rgb(167, 167, 167);
+}
+.dic>h4 {
+  color: aliceblue;
+}
+.App>h2 {
+  background-color: bisque;
+  width: 250px;
+  height: 47px;
+  border-radius: 6px;
+  margin:  0 auto;
+  margin-bottom: 50px;
+}
+.App>h2>p {
+  padding: 10px 42px;
+}
+.dic>h4>p {
+  padding: 0px 20px;
+}
+.dic>h4>p>button {
+  background-color: rgb(3, 19, 27);
+  width: auto;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  top: 4px;
+  left: 100px;
+}
+.dic>h4>p>button>h4 {
+  position: relative;
+  bottom: 10px;
+  color: white;
+}
